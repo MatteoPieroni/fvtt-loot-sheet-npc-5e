@@ -1,0 +1,25 @@
+{
+  "name": "fvtt-loot-sheet-npc-base-5e",
+  "version": "0.1.0",
+  "description": "This module adds an additional NPC sheet which can be used for loot containers such as chests. It also allows spells to be automatically converted into spell scrolls by dragging them onto this sheet.",
+  "main": "lootsheetnpc5e.js",
+  "scripts": {
+    "build": "gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MatteoPieroni/fvtt-loot-sheet-npc-base-5e.git"
+  },
+  "author": "Matteo Pieroni",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MatteoPieroni/fvtt-loot-sheet-npc-base-5e/issues"
+  },
+  "homepage": "https://github.com/MatteoPieroni/fvtt-loot-sheet-npc-base-5e#readme",
+  "dependencies": {
+    "del": "^6.0.0",
+    "gulp": "^4.0.2",
+    "gulp-rename": "^2.0.0",
+    "gulp-replace": "^1.0.0"
+  }
+}

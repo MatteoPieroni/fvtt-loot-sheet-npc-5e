@@ -1,4 +1,4 @@
-import ActorSheet5eNPC from "../../systems/dnd5e/module/actor/sheets/npc.js";
+import ActorSheet5eNPC from "../../systems/REPLACE/module/actor/sheets/npc.js";
 
 class QuantityDialog extends Dialog {
     constructor(callback, options) {
@@ -63,7 +63,7 @@ class LootSheet5eNPC extends ActorSheet5eNPC {
             return Math.round(basePrice * modifier * 100) / 100;
         });
 
-        const path = "systems/dnd5e/templates/actors/";
+        const path = "systems/sw5e/templates/actors/";
         if (!game.user.isGM && this.actor.limited) return path + "limited-sheet.html";
         return "modules/lootsheetnpc5e/template/npc-sheet.html";
     }
