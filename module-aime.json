@@ -12,5 +12,5 @@
 	"socket": true,
 	"url": "https://github.com/MatteoPieroni/fvtt-loot-sheet-npc-base-5e",
 	"manifest": "https://raw.githubusercontent.com/MatteoPieroni/fvtt-loot-sheet-npc-base-5e/main/module-aime.json",
-	"download": "https://github.com/MatteoPieroni/fvtt-loot-sheet-npc-base-5e/archive/aime-2.3.0.zip"
+	"download": "https://github.com/MatteoPieroni/fvtt-loot-sheet-npc-sw5e/releases/download/2.1.4/aime-2.3.0.zip"
 }
