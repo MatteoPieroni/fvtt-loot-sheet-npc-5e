@@ -20,7 +20,7 @@ function copyFiles(cb) {
 }
 
 function modules(cb) {
-  src('./module-sw5e.json').pipe(rename({ basename: 'module' })).pipe(dest('dist/sw5efoundry/'));
+  src('./module-sw5efoundry.json').pipe(rename({ basename: 'module' })).pipe(dest('dist/sw5efoundry/'));
   src('./module-aime.json').pipe(rename({ basename: 'module' })).pipe(dest('dist/aime/'));
   
   cb();
@@ -34,7 +34,7 @@ function javascript(cb) {
 }
 
 function html(cb) {
-  src('./template/npc-sheet.html').pipe(replace(/REPLACE/g, 'lootsheetnpcsw5e')).pipe(dest('dist/sw5efoundry/template/'));
+  src('./template/npc-sheet.html').pipe(replace(/REPLACE/g, 'lootsheetnpcsw5efoundry')).pipe(dest('dist/sw5efoundry/template/'));
   src('./template/npc-sheet.html').pipe(replace(/REPLACE/g, 'lootsheetnpcaime')).pipe(dest('dist/aime/template/'));
 
   cb();

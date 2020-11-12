@@ -1037,7 +1037,7 @@ Hooks.on('preCreateOwnedItem', (actor, item, data) => {
 
             let changeScrollIcon = game.settings.get(moduleName, "changeScrollIcon");
 
-            if (changeScrollIcon) item.img = `modules/${lootsheetnpc5e}/icons/Scroll${item.data.level}.png`;
+            if (changeScrollIcon) item.img = `modules/${moduleName}/icons/Scroll${item.data.level}.png`;
 
             //console.log("Loot Sheet | check changeScrollIcon", changeScrollIcon);
 

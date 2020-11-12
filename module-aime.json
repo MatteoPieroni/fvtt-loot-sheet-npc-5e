@@ -5,12 +5,12 @@
 	"version": "2.1.4",
 	"minimumCoreVersion": "0.7.5",
 	"compatibleCoreVersion": "0.7.5",
-	"author": "Jan Ole Peek (ChalkOne), Charles Miller (Kage)",
+	"author": "Matteo Pieroni based on the work of Jan Ole Peek (ChalkOne), Charles Miller (Kage)",
 	"systems": ["aime"],
     "esmodules": ["/lootsheetnpc5e.js"],
 	"styles": ["/css/lootsheetnpc5e.css"],
 	"socket": true,
 	"url": "https://github.com/MatteoPieroni/fvtt-loot-sheet-npc-base-5e",
 	"manifest": "https://raw.githubusercontent.com/MatteoPieroni/fvtt-loot-sheet-npc-base-5e/main/module-aime.json",
-	"download": "https://github.com/MatteoPieroni/fvtt-loot-sheet-npc-sw5e/releases/download/2.1.4/aime-2.3.0.zip"
+	"download": "https://github.com/MatteoPieroni/fvtt-loot-sheet-npc-sw5e/releases/download/2.1.4/aime.zip"
 }
