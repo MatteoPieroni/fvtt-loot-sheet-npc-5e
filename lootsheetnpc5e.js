@@ -261,7 +261,7 @@ class LootSheet5eNPC extends ActorSheet5eNPC {
 
         game.packs.map(p => p.collection);
 
-        const pack = game.packs.find(p => p.collection === "dnd5e.items");
+        const pack = game.packs.find(p => p.collection === "REPLACE.items");
 
         let i = 0;
 
@@ -1010,7 +1010,7 @@ class LootSheet5eNPC extends ActorSheet5eNPC {
 }
 
 //Register the loot sheet
-Actors.registerSheet("dnd5e", LootSheet5eNPC, {
+Actors.registerSheet("REPLACE", LootSheet5eNPC, {
     types: ["npc"],
     makeDefault: false
 });
@@ -1031,7 +1031,7 @@ Hooks.on('preCreateOwnedItem', (actor, item, data) => {
     if (actor.data.type === "character") return;
     
     // If the actor is using the LootSheet5eNPC then check in the item is a spell and if so update the name.
-    if ((actor.data.flags.core || {}).sheetClass === "dnd5e.LootSheet5eNPC") {
+    if ((actor.data.flags.core || {}).sheetClass === "REPLACE.LootSheet5eNPC") {
         if (item.type === "spell") {
             //console.log("Loot Sheet | dragged spell item", item);
 
